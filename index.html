@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin&display=swap" 
+    rel="stylesheet">
+    <title>
+        Anything Anytime
+    </title>
+</head>
+<body>
+    <main>
+        <header class="banner">
+            <h1>Anything Anytime.</h1>
+            <span>The helpful recipe generator.</span>
+        </header>
+        <section id="randomizer">
+            <button id="random-meal">Random Recipe</button>
+        </section>
+
+        <section id="cuisine-search">
+            <input id="cuisine-input" type="text" placeholder="Italian.."/>
+            <button id="cuisine-submit">Submit</button>
+        </section>
+
+        <section id="results" class="hidden">
+            <ul id="results-list" aria-live="polite">
+            </ul>
+        </section>
+    </main>
+    
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</html>

@@ -92,5 +92,6 @@ function watchRandomButton() {
     });
 }
 
+
 $(watchCuisineButton);
 $(watchRandomButton);
